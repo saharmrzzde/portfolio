@@ -2,49 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahar Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav>
-    <h2>My Portfolio</h2>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+    <nav>
+        <div class="logo">My Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-<section id="home">
-    <h1>Hello, I'm Sahar 👋</h1>
-    <p>Computer Science Student</p>
-</section>
+    <section id="home" class="home-section">
+        <div class="home-text">
+            <h1>Hello, I'm Sahar 👋</h1>
+            <p>Computer Science Student</p>
+            <p>I am learning programming and building my portfolio website.</p>
+        </div>
 
-<section id="projects">
-    <h2>Projects</h2>
+        <div class="home-image">
+            <img src="images/profile.jpg" alt="Sahar Profile Photo">
+        </div>
+    </section>
 
-    <div class="card">
-        <h3>Portfolio Website</h3>
-        <p>A simple personal portfolio website made with HTML, CSS, and JavaScript.</p>
-        <a href="https://saharmrzzde.github.io/portfolio/" target="_blank">Live Demo</a>
-        <br>
-        <a href="https://github.com/saharmrzzde/portfolio" target="_blank">GitHub</a>
-    </div>
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
 
-    <div class="card">
-        <h3>Python Game</h3>
-        <p>A simple game project built with Python.</p>
-        <a href="https://github.com/saharmrzzde/portfolio" target="_blank">View</a>
-    </div>
+        <div class="projects-container">
 
-</section>
+            <div class="card">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio website made with HTML, CSS, and JavaScript.</p>
+                <p class="tags">HTML · CSS · JavaScript</p>
+                <a href="https://saharmrzzde.github.io/portfolio/" target="_blank">Live Demo</a>
+                <a href="https://github.com/saharmrzzde/portfolio" target="_blank">GitHub</a>
+            </div>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: sahar@example.com</p>
-</section>
+            <div class="card">
+                <h3>Python Mini Game</h3>
+                <p>A simple interactive mini game created with Python for practice.</p>
+                <p class="tags">Python</p>
+                <a href="https://github.com/saharmrzzde/portfolio" target="_blank">View Project</a>
+            </div>
 
-<script src="script.js"></script>
+            <div class="card">
+                <h3>Java Practice Program</h3>
+                <p>A basic Java program developed for class assignments and coding practice.</p>
+                <p class="tags">Java</p>
+                <a href="https://github.com/saharmrzzde/portfolio" target="_blank">View Project</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <p>Email: sahar@example.com</p>
+        <p>GitHub: <a href="https://github.com/saharmrzzde" target="_blank">github.com/saharmrzzde</a></p>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
